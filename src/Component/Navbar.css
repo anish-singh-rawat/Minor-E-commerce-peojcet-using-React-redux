@@ -1,0 +1,42 @@
+.parentNavbar {
+    display: flex;
+    font-weight: bolder;
+    font-size: 20px;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(118, 225, 225);
+}
+
+.navLink {
+    padding-left: 60px;
+    text-decoration: none;
+    color: black;
+}
+.item:hover {
+    cursor: pointer;
+}
+
+.card {
+    width: 24rem;
+    height: 350px;
+    display: inline-block;
+    padding-left: 120px;
+    margin-top: 10px;
+    padding-top: 10px;
+    overflow: hidden;
+    border: none;
+    margin-left: 50px;
+}
+
+.img {
+    width: 100px;
+    height: 150px;
+}
+
+.btn {
+    width: 120px;
+    height: 40px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: 15px;
+}
